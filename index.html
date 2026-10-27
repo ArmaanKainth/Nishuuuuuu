@@ -1,0 +1,1329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Nishu 💗</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Animated Universe -->
+  <div id="universe">
+    <div id="starfield"></div>
+    <div id="particles"></div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-heart">♡</div>
+    <h2>Preparing something magical...</h2>
+    <p>Made with love, just for Nishu 💗</p>
+  </div>
+
+  <!-- Website Header -->
+  <header class="site-header">
+    <div class="brand">For Nishu <span>♡</span></div>
+
+    <div class="chapter-counter">
+      CHAPTER <span id="chapter-number">01</span> / 10
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-track">
+    <div id="progress-fill"></div>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav id="chapter-nav" aria-label="Chapter navigation">
+    <button data-ch="1" class="nav-dot active"
+      onclick="navigateTo(1)">01</button>
+    <button data-ch="2" class="nav-dot"
+      onclick="navigateTo(2)">02</button>
+    <button data-ch="3" class="nav-dot"
+      onclick="navigateTo(3)">03</button>
+    <button data-ch="4" class="nav-dot"
+      onclick="navigateTo(4)">04</button>
+    <button data-ch="5" class="nav-dot"
+      onclick="navigateTo(5)">05</button>
+    <button data-ch="6" class="nav-dot"
+      onclick="navigateTo(6)">06</button>
+    <button data-ch="7" class="nav-dot"
+      onclick="navigateTo(7)">07</button>
+    <button data-ch="8" class="nav-dot"
+      onclick="navigateTo(8)">08</button>
+    <button data-ch="9" class="nav-dot"
+      onclick="navigateTo(9)">09</button>
+    <button data-ch="10" class="nav-dot"
+      onclick="navigateTo(10)">10</button>
+  </nav>
+
+  <!-- Chapter 1: The Beginning -->
+  <main id="chapters">
+
+    <section class="chapter active" id="chapter-1">
+      <div class="chapter-content">
+        <p class="eyebrow">A LITTLE UNIVERSE, MADE FOR YOU</p>
+
+        <h1>Hey, <span>Nishu</span> ♡</h1>
+
+        <p class="intro-text">
+          Somewhere between a million stars,
+          there is a little world that belongs to you.
+        </p>
+
+        <button class="magic-button" onclick="navigateTo(2)">
+          Enter your little universe ✨
+        </button>
+      </div>
+    </section>
+
+    <!-- Chapter 2: The Love Letter -->
+    
+<!-- CHAPTER 2: THE CINEMATIC LOVE LETTER -->
+<section class="chapter" id="chapter-2">
+  <div class="letter-world">
+
+    <p class="letter-eyebrow">CHAPTER TWO · SEALED WITH LOVE</p>
+
+    <h1 class="letter-title">
+      A little letter, <span>just for you.</span>
+    </h1>
+
+    <p class="letter-subtitle">
+      Some feelings deserve more than an ordinary message. ♡
+    </p>
+
+    <!-- Envelope -->
+    <div class="envelope-stage">
+
+      <div class="cinema-envelope" id="cinemaEnvelope">
+
+        <!-- Letter inside the envelope -->
+        <div class="letter-paper" id="letterPaper">
+          <div class="paper-decoration">♡</div>
+
+          <p class="paper-to">To my dearest Nishu,</p>
+
+          <div id="typedMessage" class="typed-message"></div>
+
+          <p class="letter-signature" id="letterSignature">
+            Forever your chota bacha ♡
+          </p>
+        </div>
+
+        <!-- Envelope back -->
+        <div class="envelope-back"></div>
+
+        <!-- Envelope side folds -->
+        <div class="envelope-left"></div>
+        <div class="envelope-right"></div>
+
+        <!-- Envelope front -->
+        <div class="envelope-front"></div>
+
+        <!-- Opening flap -->
+        <div class="envelope-flap"></div>
+
+        <!-- Wax seal -->
+        <button
+          class="wax-seal"
+          id="waxSeal"
+          onclick="openCinemaLetter()"
+          aria-label="Open Nishu's letter"
+        >
+          <span>♡</span>
+        </button>
+
+      </div>
+    </div>
+
+    <p class="envelope-hint" id="envelopeHint">
+      Tap the little heart to open your letter 💌
+    </p>
+
+    <div class="letter-controls">
+      <button
+        class="magic-button"
+        id="letterOpenButton"
+        onclick="openCinemaLetter()"
+      >
+        Open my letter ♡
+      </button>
+
+      <button
+        class="magic-button letter-replay"
+        id="letterReplayButton"
+        onclick="resetCinemaLetter()"
+        hidden
+      >
+        Read it again ↻
+      </button>
+    </div>
+
+    <!-- Hidden personal message -->
+    <div class="secret-letter" id="secretLetter">
+      <div class="secret-heart">♡</div>
+      <p class="secret-label">A LITTLE SECRET FOR YOU</p>
+
+      <h2>One thing I hope you never forget...</h2>
+
+      <p>
+        No matter how many birthdays come and go,
+        no matter how much life changes,
+        you will always be someone incredibly special to me.
+        Thank you for being you, Nishu. 💗
+      </p>
+
+      <div class="secret-signature">
+        With all my love,<br />
+        your chota bacha 🥹
+      </div>
+    </div>
+
+    <div class="letter-bottom-nav">
+      <button class="text-button" onclick="navigateTo(1)">
+        ← Back
+      </button>
+
+      <button
+        class="magic-button"
+        onclick="navigateTo(3)"
+      >
+        Our memories await 📸 →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Chapters 3–10: We'll build these next -->
+    
+<!-- CHAPTER 3: OUR LITTLE MEMORIES -->
+<section class="chapter" id="chapter-3">
+  <div class="memory-world">
+
+    <p class="memory-eyebrow">CHAPTER THREE · LITTLE MOMENTS, BIG FEELINGS</p>
+
+    <h1 class="memory-title">
+      Our little <span>memories.</span>
+    </h1>
+
+    <p class="memory-intro">
+      If I could collect my favourite moments and keep them somewhere,
+      I think they'd look a little like this. ♡
+    </p>
+
+    <div class="memory-stats">
+      <span class="memory-star">✦</span>
+      <span>A tiny gallery of moments that matter</span>
+      <span class="memory-star">✦</span>
+    </div>
+
+    <!-- PHOTO GALLERY -->
+    <div class="memory-gallery">
+
+      <button class="memory-card memory-card-1"
+        onclick="openMemory(0)" aria-label="Open memory one">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 1.jpeg"
+            alt="A favourite memory together"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">♡<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 01</span>
+        </span>
+        <span class="polaroid-caption">The beginning ♡</span>
+        <span class="polaroid-date">A moment to keep</span>
+      </button>
+
+      <button class="memory-card memory-card-2"
+        onclick="openMemory(1)" aria-label="Open memory two">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 3.jpeg"
+            alt="A happy memory"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">✿<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 02</span>
+        </span>
+        <span class="polaroid-caption">That happy day</span>
+        <span class="polaroid-date">One of my favourites</span>
+      </button>
+
+      <button class="memory-card memory-card-3"
+        onclick="openMemory(2)" aria-label="Open memory three">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 4.jpeg"
+            alt="A special moment"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">☾<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 03</span>
+        </span>
+        <span class="polaroid-caption">Just being you</span>
+        <span class="polaroid-date">Simple. Special. Ours.</span>
+      </button>
+
+      <button class="memory-card memory-card-4"
+        onclick="openMemory(3)" aria-label="Open memory four">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 5.jpeg"
+            alt="A beautiful memory"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">♡<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 04</span>
+        </span>
+        <span class="polaroid-caption">My comfort person</span>
+        <span class="polaroid-date">A little piece of happiness</span>
+      </button>
+
+      <button class="memory-card memory-card-5"
+        onclick="openMemory(4)" aria-label="Open memory five">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 6.jpeg"
+            alt="A memory worth keeping"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">✧<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 05</span>
+        </span>
+        <span class="polaroid-caption">A forever favourite</span>
+        <span class="polaroid-date">Saved in my heart</span>
+      </button>
+
+      <button class="memory-card memory-card-6"
+        onclick="openMemory(5)" aria-label="Open memory six">
+        <span class="photo-tape"></span>
+        <span class="memory-photo">
+          <img src="Memory 2.jpeg"
+            alt="A memory from our story"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="photo-placeholder">♥<small>Your photo here</small></span>
+          <span class="photo-number">MEMORY 06</span>
+        </span>
+        <span class="polaroid-caption">More memories to come</span>
+        <span class="polaroid-date">Our story continues...</span>
+      </button>
+
+    </div>
+
+    <p class="memory-footnote">
+      Six little frames. A million feelings. And so many moments still to come. 💗
+    </p>
+
+    <div class="memory-surprise">
+      <span class="surprise-sparkle">✧</span>
+      <p>There's something about your memories...</p>
+      <button class="magic-button" onclick="showMemoryNote()">
+        A little note for you 💌
+      </button>
+      <p id="memoryNote" class="memory-note" hidden>
+        Even the smallest moments with you can become the memories
+        I smile about later. Maybe that's what makes them so special. ♡
+      </p>
+    </div>
+
+    <div class="memory-bottom-nav">
+      <button class="text-button" onclick="navigateTo(2)">← The letter</button>
+      <button class="magic-button" onclick="navigateTo(4)">
+        Things I adore about you ♡ →
+      </button>
+    </div>
+
+  </div>
+
+  <!-- PHOTO LIGHTBOX -->
+  <div class="memory-lightbox" id="memoryLightbox"
+    role="dialog" aria-modal="true" aria-label="Memory details"
+    onclick="closeMemoryOnBackdrop(event)" hidden>
+
+    <button class="memory-close" onclick="closeMemory()"
+      aria-label="Close photo">×</button>
+
+    <div class="memory-lightbox-content">
+      <div class="lightbox-photo" id="lightboxPhoto">
+        <span>♡</span>
+      </div>
+
+      <p class="lightbox-count" id="lightboxCount">MEMORY 01 / 06</p>
+      <h2 id="lightboxTitle">The beginning ♡</h2>
+      <p id="lightboxCaption">A little moment, kept forever.</p>
+
+      <div class="lightbox-controls">
+        <button class="magic-button" onclick="changeMemory(-1)">← Previous</button>
+        <button class="magic-button" onclick="changeMemory(1)">Next →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+<!-- CHAPTER 4: THINGS I ADORE ABOUT YOU -->
+<section class="chapter" id="chapter-4">
+  <div class="adore-world">
+
+    <p class="adore-eyebrow">CHAPTER FOUR · A LITTLE APPRECIATION</p>
+
+    <h1 class="adore-title">
+      Things I adore <span>about you.</span>
+    </h1>
+
+    <p class="adore-intro">
+      If you could see yourself through my eyes for just a moment,
+      maybe you'd understand how special you really are. ♡
+    </p>
+
+    <div class="adore-counter">
+      <span>✧</span>
+      <span id="adoreCounter">0 of 8 little reasons discovered</span>
+      <span>✧</span>
+    </div>
+
+    <!-- REASON CARDS -->
+    <div class="adore-grid">
+
+      <button class="adore-card" onclick="revealAdore(0)">
+        <span class="adore-card-number">01</span>
+        <span class="adore-card-icon">🌷</span>
+        <span class="adore-card-title">Your heart</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          The little things you do and the care you show can mean
+          more than you realise.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(1)">
+        <span class="adore-card-number">02</span>
+        <span class="adore-card-icon">✨</span>
+        <span class="adore-card-title">Your little magic</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          You have your own way of making ordinary moments
+          feel a little more beautiful.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(2)">
+        <span class="adore-card-number">03</span>
+        <span class="adore-card-icon">🦋</span>
+        <span class="adore-card-title">Your uniqueness</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          There is nobody else who is exactly you.
+          Never feel like you need to be anyone different.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(3)">
+        <span class="adore-card-number">04</span>
+        <span class="adore-card-icon">🌙</span>
+        <span class="adore-card-title">Your presence</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          Sometimes, just knowing someone matters can make
+          a difficult day feel less heavy.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(4)">
+        <span class="adore-card-number">05</span>
+        <span class="adore-card-icon">🎀</span>
+        <span class="adore-card-title">Your little quirks</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          The tiny things that make you you are part of what
+          makes knowing you so lovely.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(5)">
+        <span class="adore-card-number">06</span>
+        <span class="adore-card-icon">💗</span>
+        <span class="adore-card-title">Our bond</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          I'm grateful for the connection we share
+          and every memory that comes with it.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(6)">
+        <span class="adore-card-number">07</span>
+        <span class="adore-card-icon">🌻</span>
+        <span class="adore-card-title">Your potential</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          I hope you keep growing, dreaming, discovering yourself,
+          and giving your own dreams a chance.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+      <button class="adore-card" onclick="revealAdore(7)">
+        <span class="adore-card-number">08</span>
+        <span class="adore-card-icon">💌</span>
+        <span class="adore-card-title">Simply being you</span>
+        <span class="adore-card-hint">Tap to discover ♡</span>
+        <span class="adore-card-message">
+          You don't have to earn your worth by being perfect.
+          You deserve kindness simply because you're you.
+        </span>
+        <span class="adore-card-heart">♡</span>
+      </button>
+
+    </div>
+
+    <p class="adore-progress-note" id="adoreProgressNote">
+      Your little collection begins with one tap. ✨
+    </p>
+
+    <!-- FINAL SURPRISE -->
+    <div class="adore-finale" id="adoreFinale">
+      <div class="adore-finale-heart">♡</div>
+
+      <p class="adore-finale-label">AND ONE LAST THING...</p>
+
+      <h2>You're more than a list of reasons.</h2>
+
+      <p>
+        I could keep writing reasons, filling pages, and collecting
+        little moments. But I don't want you to think you need to
+        be perfect to be appreciated.
+      </p>
+
+      <p>
+        I hope this new year of your life brings you closer to
+        the happiness, peace, and beautiful things you deserve.
+        Keep being wonderfully, unapologetically you. 💗
+      </p>
+
+      <div class="adore-finale-signature">
+        Always cheering for you ♡
+      </div>
+
+      <button class="magic-button" onclick="celebrate()">
+        Send you a little shower of love ✨
+      </button>
+    </div>
+
+    <div class="adore-bottom-nav">
+      <button class="text-button" onclick="navigateTo(3)">
+        ← Our memories
+      </button>
+
+      <button class="magic-button" onclick="navigateTo(5)">
+        Let's make a wish garden 🌷 →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+    
+<!-- CHAPTER 5: THE WISH GARDEN -->
+<section class="chapter" id="chapter-5">
+  <div class="garden-world">
+
+    <p class="garden-eyebrow">CHAPTER FIVE · PLANT A LITTLE MAGIC</p>
+
+    <h1 class="garden-title">
+      Welcome to your <span>wish garden.</span>
+    </h1>
+
+    <p class="garden-intro">
+      Every flower holds a wish for your new year of life.
+      Plant them one by one, and let your little garden bloom. ♡
+    </p>
+
+    <!-- NIGHT SKY DECORATION -->
+    <div class="garden-sky" aria-hidden="true">
+      <span class="garden-moon">☾</span>
+      <span class="garden-spark garden-spark-1">✦</span>
+      <span class="garden-spark garden-spark-2">✧</span>
+      <span class="garden-spark garden-spark-3">✦</span>
+      <span class="garden-spark garden-spark-4">✧</span>
+      <span class="garden-cloud garden-cloud-1"></span>
+      <span class="garden-cloud garden-cloud-2"></span>
+    </div>
+
+    <!-- GARDEN PROGRESS -->
+    <div class="garden-progress">
+      <div class="garden-progress-heading">
+        <span>YOUR LITTLE GARDEN</span>
+        <span id="gardenCount">0 / 6 flowers</span>
+      </div>
+
+      <div class="garden-progress-track">
+        <div id="gardenProgressFill"></div>
+      </div>
+    </div>
+
+    <!-- FLOWER GARDEN -->
+    <div class="wish-garden" id="wishGarden">
+
+      <button class="garden-plot" onclick="plantWish(0)"
+        aria-label="Plant flower one">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🌷</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish for happiness</span>
+      </button>
+
+      <button class="garden-plot" onclick="plantWish(1)"
+        aria-label="Plant flower two">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🌸</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish for peace</span>
+      </button>
+
+      <button class="garden-plot" onclick="plantWish(2)"
+        aria-label="Plant flower three">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🌻</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish for courage</span>
+      </button>
+
+      <button class="garden-plot" onclick="plantWish(3)"
+        aria-label="Plant flower four">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🌼</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish for adventure</span>
+      </button>
+
+      <button class="garden-plot" onclick="plantWish(4)"
+        aria-label="Plant flower five">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🪻</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish for love</span>
+      </button>
+
+      <button class="garden-plot" onclick="plantWish(5)"
+        aria-label="Plant flower six">
+        <span class="garden-seed">✧</span>
+        <span class="garden-flower" aria-hidden="true">🌹</span>
+        <span class="garden-ground"></span>
+        <span class="garden-plot-label">A wish just for you</span>
+      </button>
+
+    </div>
+
+    <p class="garden-instruction" id="gardenInstruction">
+      Choose any little seed to plant your first wish. 🌱
+    </p>
+
+    <!-- SELECTED WISH -->
+    <div class="garden-wish-card" id="gardenWishCard"
+      aria-live="polite">
+      <span class="garden-wish-icon" id="gardenWishIcon">♡</span>
+      <p class="garden-wish-label" id="gardenWishLabel">
+        A LITTLE WISH FOR NISHU
+      </p>
+      <h2 id="gardenWishTitle">Your wishes are waiting...</h2>
+      <p id="gardenWishText">
+        Tap a seed above and discover the first little wish.
+      </p>
+    </div>
+
+    <!-- ALL FLOWERS BLOOMED -->
+    <div class="garden-finale" id="gardenFinale">
+      <div class="garden-finale-flower">💐</div>
+      <p class="garden-finale-eyebrow">YOUR GARDEN IS IN BLOOM</p>
+      <h2>May your life bloom beautifully. ♡</h2>
+      <p>
+        Six flowers, six wishes, and a thousand more things
+        I hope life brings your way. May you find reasons to
+        smile on ordinary days, strength on difficult ones,
+        and little pieces of magic wherever you go.
+      </p>
+      <p class="garden-finale-signature">
+        Happy birthday, Nishu. You deserve beautiful things. 💗
+      </p>
+      <button class="magic-button" onclick="releaseGardenMagic(30)">
+        Make it rain petals ✨
+      </button>
+    </div>
+
+    <div class="garden-bottom-nav">
+      <button class="text-button" onclick="navigateTo(4)">
+        ← Little reasons
+      </button>
+      <button class="magic-button" onclick="navigateTo(6)">
+        Open when you need me 💌 →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+    
+<!-- CHAPTER 6: OPEN WHEN YOU NEED ME -->
+<section class="chapter" id="chapter-6">
+  <div class="comfort-world">
+
+    <p class="comfort-eyebrow">CHAPTER SIX · LITTLE LETTERS FOR YOUR HEART</p>
+
+    <h1 class="comfort-title">
+      Open when <span>you need me.</span>
+    </h1>
+
+    <p class="comfort-intro">
+      For the days when you need a little comfort,
+      a little courage, or just a reminder that someone is cheering for you. ♡
+    </p>
+
+    <div class="comfort-starlight" aria-hidden="true">
+      <span>✧</span>
+      <span>☾</span>
+      <span>✦</span>
+      <span>♡</span>
+      <span>✧</span>
+    </div>
+
+    <p class="comfort-instruction">
+      Pick whichever letter your heart needs today. 💌
+    </p>
+
+    <!-- SEALED LETTERS -->
+    <div class="comfort-grid">
+
+      <button class="comfort-envelope" onclick="openComfortLetter(0)"
+        aria-label="Open when you're feeling sad">
+        <span class="comfort-envelope-number">01</span>
+        <span class="comfort-envelope-icon">🌧️</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open when you're sad</span>
+        <span class="comfort-envelope-subtitle">For your heavy days</span>
+      </button>
+
+      <button class="comfort-envelope" onclick="openComfortLetter(1)"
+        aria-label="Open when you can't sleep">
+        <span class="comfort-envelope-number">02</span>
+        <span class="comfort-envelope-icon">🌙</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open when you can't sleep</span>
+        <span class="comfort-envelope-subtitle">For your quiet nights</span>
+      </button>
+
+      <button class="comfort-envelope" onclick="openComfortLetter(2)"
+        aria-label="Open when you miss me">
+        <span class="comfort-envelope-number">03</span>
+        <span class="comfort-envelope-icon">🫂</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open when you miss me</span>
+        <span class="comfort-envelope-subtitle">A little hug in words</span>
+      </button>
+
+      <button class="comfort-envelope" onclick="openComfortLetter(3)"
+        aria-label="Open when you doubt yourself">
+        <span class="comfort-envelope-number">04</span>
+        <span class="comfort-envelope-icon">✨</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open when you doubt yourself</span>
+        <span class="comfort-envelope-subtitle">Remember your magic</span>
+      </button>
+
+      <button class="comfort-envelope" onclick="openComfortLetter(4)"
+        aria-label="Open when you need a smile">
+        <span class="comfort-envelope-number">05</span>
+        <span class="comfort-envelope-icon">🎀</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open when you need a smile</span>
+        <span class="comfort-envelope-subtitle">A tiny happy moment</span>
+      </button>
+
+      <button class="comfort-envelope" onclick="openComfortLetter(5)"
+        aria-label="Open whenever you need love">
+        <span class="comfort-envelope-number">06</span>
+        <span class="comfort-envelope-icon">💗</span>
+        <span class="comfort-envelope-seal">♡</span>
+        <span class="comfort-envelope-title">Open whenever you need love</span>
+        <span class="comfort-envelope-subtitle">A reminder, just for you</span>
+      </button>
+
+    </div>
+
+    <p class="comfort-footer-note">
+      No need to open them all at once. They're here whenever you need a little reminder. ♡
+    </p>
+
+    <!-- LETTER READER -->
+    <div class="comfort-reader" id="comfortReader"
+      role="dialog" aria-modal="true" aria-labelledby="comfortLetterTitle" hidden>
+
+      <div class="comfort-reader-paper">
+
+        <button class="comfort-close" onclick="closeComfortLetter()"
+          aria-label="Close letter">×</button>
+
+        <div class="comfort-reader-flower" id="comfortReaderIcon">💌</div>
+
+        <p class="comfort-reader-eyebrow" id="comfortReaderEyebrow">
+          A LITTLE LETTER FOR YOU
+        </p>
+
+        <h2 id="comfortLetterTitle">For Nishu ♡</h2>
+
+        <div class="comfort-letter-divider">✧ · ♡ · ✧</div>
+
+        <p class="comfort-letter-body" id="comfortLetterBody"></p>
+
+        <p class="comfort-letter-signature">
+          With love, always,<br />
+          your chota bacha 💗
+        </p>
+
+        <div class="comfort-reader-actions">
+          <button class="magic-button" onclick="closeComfortLetter()">
+            Keep this close ♡
+          </button>
+
+          <button class="text-button" onclick="openNextComfortLetter()">
+            Another little letter →
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="comfort-bottom-nav">
+      <button class="text-button" onclick="navigateTo(5)">
+        ← Your wish garden
+      </button>
+
+      <button class="magic-button" onclick="navigateTo(7)">
+        Time for a little game 🎀 →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+    
+<section class="chapter" id="chapter-7">
+  <div class="happiness-world">
+    <div class="happiness-sparkle sparkle-one">✦</div>
+    <div class="happiness-sparkle sparkle-two">✧</div>
+    <div class="happiness-sparkle sparkle-three">✦</div>
+
+    <div class="happiness-heading">
+      <span class="chapter-kicker">CHAPTER VII · A LITTLE GAME FOR YOU</span>
+      <h1>The Happiness Game <span>♡</span></h1>
+      <p class="happiness-subtitle">
+        Come on, Mumma… let's collect a little happiness together.
+      </p>
+    </div>
+
+    <div class="happiness-instructions" id="happinessInstructions">
+      <span class="instruction-icon">🧸</span>
+      <div>
+        <h3>Your tiny mission</h3>
+        <p>Tap the floating hearts and collect <strong>10 hearts</strong>.
+          Each heart carries a little reminder of how special you are. 💗</p>
+      </div>
+    </div>
+
+    <div class="happiness-scoreboard">
+      <div class="score-pill">
+        <span>💖</span>
+        <div>
+          <small>HEARTS COLLECTED</small>
+          <strong><span id="happinessScore">0</span> / 10</strong>
+        </div>
+      </div>
+      <div class="score-pill">
+        <span>🌷</span>
+        <div>
+          <small>HAPPINESS LEVEL</small>
+          <strong id="happinessLevel">Just starting</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="happiness-arena" id="happinessArena">
+      <div class="arena-glow"></div>
+      <div class="arena-message" id="arenaMessage">
+        <span>♡</span>
+        <p>Every little heart is a little reason to smile.</p>
+      </div>
+      <button class="floating-heart heart-pos-1" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-2" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-3" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-4" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-5" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-6" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-7" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-8" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-9" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+      <button class="floating-heart heart-pos-10" onclick="collectHappinessHeart(this)" aria-label="Collect heart">♥</button>
+
+    </div>
+
+    <div class="happiness-progress">
+      <div class="happiness-progress-track">
+        <div id="happinessProgressFill"></div>
+      </div>
+      <p id="happinessProgressText">8 little hearts are waiting for you ✨</p>
+    </div>
+
+    <div class="happiness-final" id="happinessFinal" hidden>
+      <div class="final-heart">💗</div>
+      <span class="chapter-kicker">MISSION COMPLETE</span>
+      <h2>You collected them all, Mumma!</h2>
+      <p>
+        But here's a little secret, Nishu…
+        <br><br>
+        You don't need to collect happiness, because you already bring
+        so much of it into my world. Your smile, your silly moments,
+        your care, and simply being <em>you</em> mean more than I can explain.
+        <br><br>
+        No game could ever count all the reasons you make my life better.
+        Happy birthday, my Mumma. 🥹💖
+      </p>
+      <button class="happiness-replay" onclick="replayHappinessGame()">♡ Play again</button>
+      <button class="happiness-continue" onclick="navigateTo(8)">Continue your story ✨ →</button>
+    </div>
+
+    <div class="happiness-bottom-note" id="happinessBottomNote">
+      P.S. Mumma, no cheating… collect every heart! 😭💕
+    </div>
+
+    <div class="happiness-navigation">
+      <button onclick="navigateTo(6)">← Previous chapter</button>
+      <button onclick="navigateTo(8)">Next chapter →</button>
+    </div>
+  </div>
+</section>
+
+
+    
+<section class="chapter" id="chapter-8">
+  <div class="capsule-world">
+    <div class="capsule-stars">✦　✧　⋆　✦　˚　✧</div>
+
+    <header class="capsule-heading">
+      <span class="chapter-kicker">CHAPTER VIII · SEALED WITH LOVE</span>
+      <h1>A Little <span>Time Capsule</span></h1>
+      <p>
+        Some feelings are too precious for just one day.
+        So, Mumma, I saved a few for you. 💌
+      </p>
+    </header>
+
+    <div class="capsule-intro">
+      <div class="capsule-moon">🌙</div>
+      <p>
+        Imagine a tiny box holding pieces of our story —
+        things I remember, things I feel today, and things I hope
+        you'll always know.
+      </p>
+      <span>Choose a little letter to open it ♡</span>
+    </div>
+
+    <div class="capsule-grid">
+      <button class="capsule-card" onclick="openCapsuleMessage(0)">
+        <span class="capsule-card-icon">📜</span>
+        <span class="capsule-card-time">FROM THE PAST</span>
+        <strong>Little Memories</strong>
+        <span class="capsule-card-desc">The moments I keep close.</span>
+        <span class="capsule-card-seal">Open my letter ♡</span>
+      </button>
+
+      <button class="capsule-card" onclick="openCapsuleMessage(1)">
+        <span class="capsule-card-icon">💗</span>
+        <span class="capsule-card-time">FROM THE PRESENT</span>
+        <strong>What You Mean to Me</strong>
+        <span class="capsule-card-desc">Something I want you to know.</span>
+        <span class="capsule-card-seal">Open my letter ♡</span>
+      </button>
+
+      <button class="capsule-card" onclick="openCapsuleMessage(2)">
+        <span class="capsule-card-icon">🌷</span>
+        <span class="capsule-card-time">FROM THE FUTURE</span>
+        <strong>A Promise for You</strong>
+        <span class="capsule-card-desc">A little wish for all our tomorrows.</span>
+        <span class="capsule-card-seal">Open my letter ♡</span>
+      </button>
+    </div>
+
+    <div class="capsule-progress">
+      <div class="capsule-progress-top">
+        <span>Your letters</span>
+        <strong><span id="capsuleOpenedCount">0</span> / 3 opened</strong>
+      </div>
+      <div class="capsule-progress-track">
+        <div id="capsuleProgressFill"></div>
+      </div>
+    </div>
+
+    <div class="capsule-secret" id="capsuleSecret" hidden>
+      <div class="capsule-secret-icon">🎁</div>
+      <span class="chapter-kicker">A LITTLE SOMETHING EXTRA</span>
+      <h2>One last promise, Mumma…</h2>
+      <p>
+        No matter how much life changes, I hope we never lose the
+        comfort of being ourselves around each other. I hope we keep
+        making silly memories, sharing our little stories, and showing
+        up for one another when it matters.
+        <br><br>
+        I can't promise every day will be perfect, but I can promise
+        that the memories we make will always have a special place
+        in my heart. You deserve kindness, happiness, and so many
+        beautiful tomorrows.
+        <br><br>
+        With all my love,
+        <br>
+        <strong>Your chota bacha 💗</strong>
+      </p>
+      <button onclick="navigateTo(9)">There's more for you →</button>
+    </div>
+
+    <div class="capsule-reader" id="capsuleReader" hidden>
+      <button class="capsule-reader-close" onclick="closeCapsuleMessage()" aria-label="Close letter">×</button>
+      <div class="capsule-reader-icon" id="capsuleReaderIcon">💌</div>
+      <span class="chapter-kicker" id="capsuleReaderTime">A LITTLE LETTER</span>
+      <h2 id="capsuleReaderTitle">For you, Mumma</h2>
+      <p id="capsuleReaderBody"></p>
+      <button class="capsule-reader-done" onclick="closeCapsuleMessage()">Keep this in my heart ♡</button>
+    </div>
+
+    <div class="capsule-bottom-note">
+      Some things aren't meant to be forgotten. They're meant to be treasured. ✨
+    </div>
+
+    <nav class="capsule-navigation">
+      <button onclick="navigateTo(7)">← Previous chapter</button>
+      <button onclick="navigateTo(9)">Next chapter →</button>
+    </nav>
+  </div>
+</section>
+
+
+    
+<section class="chapter" id="chapter-9">
+  <div class="birthday-surprise-world">
+    <div class="surprise-stars surprise-star-one">✦</div>
+    <div class="surprise-stars surprise-star-two">✧</div>
+    <div class="surprise-stars surprise-star-three">⋆</div>
+    <div class="surprise-stars surprise-star-four">✦</div>
+
+    <header class="surprise-heading">
+      <span class="chapter-kicker">CHAPTER IX · YOUR SPECIAL MOMENT</span>
+      <h1>Something Special <span>For You</span></h1>
+      <p>
+        Mumma, I've been saving this little moment just for you. 💗
+      </p>
+    </header>
+
+    <div class="surprise-intro" id="surpriseIntro">
+      <div class="surprise-crown">👑</div>
+      <p>
+        Today, the universe has one important job…
+        <br>
+        to remind one very special girl how loved she is.
+      </p>
+      <span>And that girl is YOU, Nishu. ♡</span>
+    </div>
+
+    <div class="birthday-gift-area" id="birthdayGiftArea">
+      <div class="gift-glow"></div>
+
+      <div class="gift-halo">
+        <span>✧</span>
+        <span>♡</span>
+        <span>✦</span>
+        <span>˚</span>
+      </div>
+
+      <button
+        class="birthday-gift"
+        id="birthdayGift"
+        onclick="openBirthdayGift()"
+        aria-label="Open your birthday gift"
+      >
+        <span class="gift-sparkle gift-sparkle-one">✦</span>
+        <span class="gift-sparkle gift-sparkle-two">✧</span>
+        <span class="gift-sparkle gift-sparkle-three">♡</span>
+
+        <span class="gift-lid">
+          <span class="gift-bow"></span>
+          <span class="gift-lid-ribbon"></span>
+        </span>
+
+        <span class="gift-box">
+          <span class="gift-box-ribbon"></span>
+          <span class="gift-box-heart">♡</span>
+        </span>
+
+        <span class="gift-base-shadow"></span>
+      </button>
+
+      <p class="gift-tap-hint" id="giftTapHint">
+        ✨ Tap your gift to open it, Mumma ✨
+      </p>
+    </div>
+
+    <div class="birthday-reveal" id="birthdayReveal" hidden>
+      <div class="reveal-crown">👑</div>
+      <span class="chapter-kicker">THIS MOMENT IS ALL YOURS</span>
+
+      <h2>Happy Birthday, My Mumma! 💗</h2>
+
+      <div class="reveal-divider">
+        <span>♡</span><span>✧</span><span>♡</span>
+      </div>
+
+      <p class="reveal-letter">
+        To my favourite person, Nishu…
+
+        Today isn't just about another birthday. It's about celebrating
+        the beautiful person you are — your heart, your smile, your
+        little quirks, your kindness, and all the things that make
+        you uniquely YOU.
+
+        I hope this new year of your life brings you peace when things
+        feel heavy, courage when things feel scary, and happiness in
+        places you never expected.
+
+        I hope you laugh until your stomach hurts, achieve the things
+        you've been dreaming about, and always remember that you deserve
+        the same love and care you give to others.
+
+        And if I could give you one thing beyond this little website,
+        it would be the ability to see yourself through the eyes of
+        someone who appreciates you.
+
+        Maybe then you'd understand just how special you are.
+
+        Thank you for being my Mumma. Thank you for all the little
+        moments that have become big memories to me.
+
+        Happy birthday, meri Mumma. 🥹💖
+
+        Forever your chota bacha. ♡
+      </p>
+
+      <div class="birthday-wishes">
+        <div>
+          <span>🌷</span>
+          <strong>More happiness</strong>
+          <small>May your smile never fade.</small>
+        </div>
+        <div>
+          <span>🌙</span>
+          <strong>More peace</strong>
+          <small>May your heart feel lighter.</small>
+        </div>
+        <div>
+          <span>✨</span>
+          <strong>More dreams</strong>
+          <small>May beautiful things find you.</small>
+        </div>
+      </div>
+
+      <div class="surprise-signature">
+        <span>Made with all my love,</span>
+        <strong>Your chota bacha 💌</strong>
+      </div>
+
+      <button class="birthday-again-button" onclick="replayBirthdaySurprise()">
+        ♡ See the surprise again
+      </button>
+
+      <button class="birthday-final-button" onclick="navigateTo(10)">
+        One last chapter awaits… → ✨
+      </button>
+    </div>
+
+    <div class="surprise-footer-note" id="surpriseFooterNote">
+      P.S. The gift is imaginary, but the love behind it is real. 🥹💕
+    </div>
+
+    <nav class="surprise-navigation">
+      <button onclick="navigateTo(8)">← Previous chapter</button>
+      <button onclick="navigateTo(10)">Final chapter →</button>
+    </nav>
+  </div>
+</section>
+
+
+    
+<section class="chapter" id="chapter-10">
+  <div class="finale-world">
+    <div class="finale-night-glow"></div>
+
+    <div class="finale-floating-star finale-star-one">✦</div>
+    <div class="finale-floating-star finale-star-two">✧</div>
+    <div class="finale-floating-star finale-star-three">⋆</div>
+    <div class="finale-floating-star finale-star-four">✦</div>
+    <div class="finale-floating-star finale-star-five">♡</div>
+
+    <header class="finale-heading">
+      <span class="chapter-kicker">CHAPTER X · THE LAST PAGE, FOR NOW</span>
+      <h1>Until Our <span>Next Memory</span></h1>
+      <p>
+        Every story has a last page, Mumma.
+        But that doesn't mean our memories have to end here. 🌙
+      </p>
+    </header>
+
+    <div class="finale-universe">
+      <div class="finale-orbit orbit-one"></div>
+      <div class="finale-orbit orbit-two"></div>
+      <div class="finale-moon">🌙</div>
+      <div class="finale-universe-heart">♡</div>
+      <span class="universe-star us-one">✦</span>
+      <span class="universe-star us-two">✧</span>
+      <span class="universe-star us-three">✦</span>
+      <span class="universe-star us-four">⋆</span>
+    </div>
+
+    <div class="finale-intro">
+      <span class="finale-mini-heart">♡</span>
+      <p>
+        Mumma, you've reached the end of this little birthday world.
+        I made it with one simple wish — that you feel celebrated,
+        appreciated, and loved.
+      </p>
+    </div>
+
+    <div class="finale-letter-card">
+      <div class="finale-letter-top">
+        <span>✉ A LETTER FOR NISHU</span>
+        <span>WITH LOVE ♡</span>
+      </div>
+
+      <div class="finale-letter-decoration">❦</div>
+
+      <h2>Dear Mumma,</h2>
+
+      <div class="finale-letter-body">
+        <p>
+          If I could put every good wish I have for you into one letter,
+          I think it would still be too small to hold them all.
+        </p>
+
+        <p>
+          So, for your birthday, I hope you get more than presents,
+          pretty pictures, and sweet words. I hope you get days that
+          feel peaceful, people who understand you, reasons to be proud
+          of yourself, and moments that make you genuinely happy.
+        </p>
+
+        <p>
+          I hope you never forget that you don't have to do everything
+          perfectly. You can have difficult days, change your mind,
+          take breaks, and start again. You deserve kindness on those
+          days just as much as you do on your happiest ones.
+        </p>
+
+        <p>
+          And thank you, Mumma, for being part of my life and for all
+          the little moments that make our story ours. The silly things,
+          the conversations, the laughter, and even the ordinary days
+          are things I want to remember.
+        </p>
+
+        <p>
+          I can't predict every chapter ahead of us. But I hope there
+          are plenty more memories to make, more reasons to laugh, and
+          more little moments that one day we'll look back on and smile.
+        </p>
+
+        <p>
+          This website might end on Chapter 10, but this isn't a goodbye.
+          It's just a little birthday gift made from the heart.
+        </p>
+      </div>
+
+      <div class="finale-letter-signature">
+        <span>Happy birthday, meri Mumma. 🥹💗</span>
+        <strong>Forever your chota bacha ♡</strong>
+      </div>
+    </div>
+
+    <div class="finale-hug-area" id="finaleHugArea">
+      <div class="finale-hug-icon" id="finaleHugIcon">🫂</div>
+      <h2>One last hug for you, Mumma</h2>
+      <p>
+        No screen can give you a real hug, but let this be a tiny
+        reminder that you deserve all the warmth and love in the world.
+      </p>
+
+      <button
+        class="finale-hug-button"
+        id="finaleHugButton"
+        onclick="sendMummaHug()"
+      >
+        <span>♡</span> Send Mumma a hug <span>♡</span>
+      </button>
+
+      <div class="finale-hug-response" id="finaleHugResponse" hidden>
+        <span class="hug-response-heart">💗</span>
+        <h3>Hug delivered, Mumma!</h3>
+        <p>
+          Imagine the biggest, warmest hug from your chota bacha.
+          No rushing, no worries — just a little moment of love.
+        </p>
+        <span class="hug-response-signature">You deserve to feel loved. Always. ✨</span>
+      </div>
+    </div>
+
+    <div class="finale-stars-message">
+      <span>✦</span>
+      <p>
+        Somewhere under the same sky, there are still so many
+        beautiful memories waiting to happen.
+      </p>
+      <span>✦</span>
+    </div>
+
+    <div class="finale-restart-area">
+      <p>Want to walk through our little birthday world again?</p>
+      <button onclick="restartBirthdayJourney()">
+        ↺ Start our story again
+      </button>
+    </div>
+
+    <footer class="finale-footer">
+      <div class="finale-footer-heart">♡</div>
+      <p>Made with love, just for Nishu.</p>
+      <span>One birthday. Ten chapters. A whole lot of love. 💗</span>
+    </footer>
+
+    <nav class="finale-navigation">
+      <button onclick="navigateTo(9)">← Previous chapter</button>
+      <span>THE END… FOR NOW ♡</span>
+    </nav>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
